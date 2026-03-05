@@ -1,9 +1,14 @@
 ## Project Details
 Writing and uploading to that repository a README file containing a summary of what you plan to do for your Final Project, and
-[for group projects] Making a plan for distributing work and coordinating among group members
+[for group projects,] Making a plan for distributing work and coordinating among group members
 1. A brief (3-5 sentences) description of your planned project
-2 a, b, c. For each of three functions, a very brief (1-2 sentences) description of what the function will do.
+1. We will be attempting to recreate an advanced version of the no wifi dinosour game. The game will include various user-input jumps, and various power-ups and power-downs, ranging from jetpacks, rocket blasters, double score tokens, half score tokens, and shortened jumps. The goal of the game is to reach the end, blow up a fence, and escape jurasic park. 
+2 a, b, c. For each of the three functions, a very brief (1-2 sentences) description of what the function will do.
+   a) One of the functions needs to collect and activate the power-ups and power-downs
+   b) Another function needs to control the dinosaur, including user-inputted jumps
+   c) The last function needs to control the background and have it scroll, and the dinosaur moves. 
 3. If you are doing a group project, the list of group members with both their real names and Github usernames.
+   
 4 a & b. If you are doing a group project, very brief statements (1-2 sentences each) describing:
 How work will be divided (assigned and tracked) among group members, and;
 How (and how often!) team members will communicate with each other about the project (such as weekly meetings, ongoing group chat, etc.)
