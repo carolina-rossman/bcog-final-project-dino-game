@@ -1,0 +1,8 @@
+Welcome to Dino Dash! 
+Let me set the scene...
+In this game you are playing as Dino the Dinosaur.
+Your Goal is to escape Jusrasic Park, making your way through multiple obstacles.
+To avoid the obstacles press your space bar.
+Throughout the game there will be various power-ups and power-downs that will automatically enable to help or hurt you. 
+Good Luck! 
+Press the next button to start!
