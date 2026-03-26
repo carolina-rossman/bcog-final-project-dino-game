@@ -33,6 +33,7 @@ class Display():
             anchor= "n",
             justify = "left", 
        )
+    
     def create_interface_buttons(self): 
         go_button = tk.Button(
            self.root, 
