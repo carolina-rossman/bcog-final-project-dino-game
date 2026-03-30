@@ -2,20 +2,18 @@
 
 # Start game Screen/Instruction Screen (Carolina)
 
-# Begginging sequence (Patricia)
+# Beginging sequence and background that scrolls throughout run (Patricia)
 
-# background that scrolls throughout run(stops when character is killed) (Patricia)
-
-# Base Dino, should be able to jump when the space bar is hit (Carolina)
+# Base Dino (Carolina)
 
 # Powerups (Carolina)
 
 # Power Downs (Carolina)
 
-# Score Counter- Based on token/coins and distance (Patricia)
+# Score Counter (Patricia)
+
+# End Screen (Alex)
+
+# Game Over Screen (Alex)
 
 # Obstacles (Alex)
-
-# Game over screen (Alex)
-
-# Finished Screen (Alex)
