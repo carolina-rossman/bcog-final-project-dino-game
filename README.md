@@ -1,4 +1,9 @@
 # Dino Dash 
+Dino Dash is an adventurous game where you play as Dino the dinosaur, a dinosaur from a corrupt test lab. 
+We are bringing two beloved games together, the dinosaur game (no-wifi Google game) and Jetpack Joyride, 
+to provide our take on the genre of side-scrolling games. Together, we have worked to create a sci-fi 
+experience to bring two beloved games together, creating an addictive experience. 
+
 ## Names and Parameters
        1.) Start Screen                      
        -The instructions                                          
@@ -44,10 +49,6 @@
         - Will randomly appear but we will put a guideline in the code that presents the obstacles from being too close together.
        
      
-Dino Dash is an adventurous game where you play as Dino the dinosaur, a dinosaur from a corrupt test lab. 
-We are bringing two beloved games together, the dinosaur game (no-wifi Google game) and Jetpack Joyride, 
-to provide our take on the genre of side-scrolling games. Together, we have worked to create a sci-fi 
-experience to bring two beloved games together, creating an addictive experience. 
 ## Project Details
 ### 1. A brief (3-5 sentences) description of your planned project
 We will be attempting to recreate an advanced version of the no wifi dinosaur game. The game will include various user-input jumps, and various power-ups and power-downs, ranging from jetpacks, rocket blasters, speed up game and midget Dino. The goal of the game is to reach the end, blow up a fence, and escape the test lab. 
