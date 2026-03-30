@@ -1,11 +1,11 @@
 # Dino Dash 
-      Dino Dash is an adventurous game where you play as Dino the dinosaur, a dinosaur from a corrupt test lab. 
-      We are bringing two beloved games together, the dinosaur game (no-wifi Google game) and Jetpack Joyride, 
-      to provide our take on the genre of side-scrolling games. Together, we have worked to create a sci-fi 
-      experience to bring two beloved games together, creating an addictive experience. 
+Dino Dash is an adventurous game where you play as Dino the dinosaur, a dinosaur from a corrupt test lab. 
+We are bringing two beloved games together, the dinosaur game (no-wifi Google game) and Jetpack Joyride, 
+to provide our take on the genre of side-scrolling games. Together, we have worked to create a sci-fi 
+experience to bring two beloved games together, creating an addictive experience. 
 ## Project Details
 ### 1. A brief (3-5 sentences) description of your planned project
-We will be attempting to recreate an advanced version of the no wifi dinosour game. The game will include various user-input jumps, and various power-ups and power-downs, ranging from jetpacks, rocket blasters, double score tokens, half score tokens, and shortened jumps. The goal of the game is to reach the end, blow up a fence, and escape jurasic park. 
+We will be attempting to recreate an advanced version of the no wifi dinosaur game. The game will include various user-input jumps, and various power-ups and power-downs, ranging from jetpacks, rocket blasters, double score tokens, half score tokens, and shortened jumps. The goal of the game is to reach the end, blow up a fence, and escape jurasic park. 
 ### 2. For each of the three functions, a very brief (1-2 sentences) description of what the function will do.
       a) One of the functions needs to collect and activate the power-ups and power-downs.
       b) Another function needs to control the dinosaur, including user-inputted jumps.
