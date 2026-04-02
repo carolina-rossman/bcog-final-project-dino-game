@@ -78,3 +78,30 @@ We will be attempting to recreate an advanced version of the no wifi dinosaur ga
       Assigned: It has already been decided that Alex will find/draw the graphics. We will divide the work based on classes. If we have an amount of classes that is not divisible by three, we will discuss what the fairest division of labor will be. If someone feels they have an undeserved amount of work, we will discuss and re-divide the work.
       b) How (and how often!) team members will communicate with each other about the project (such as weekly meetings, ongoing group chat, etc.)
       We already have an ongoing group chat. We will have in-person meetings on Mondays from 4:30 to 6, starting on week 9. If we feel that our Monday meeting is insufficient, we will also meet on Thursdays at a similar time.
+
+
+
+
+
+
+## Testing
+You can run the test by running pytest in the root directory as a module.
+Do so by running python, -m pytest.
+When running the game, the dino should stay in the far left of the screen while the background scrolls.  
+As the background scrolls horizontally, obstacles appear that the users should avoid.
+By pressing spacebar. Users can clear the obstacles as they appear.
+to make the game more engaging we added power-ups and power-downs.
+These abilities automatically engage with no user input.
+The power-ups include,
+- Jetpack (when jetpack is picked up the Dino begins to fly over obstacles, for a set distance to be determined.)
+- Rocket Blaster ( when Rocket Blaster is picked up Dino destroys all obstacles in it's path, for a set distance to be determined.)
+- Reveal (A rare power-up not guaranteed to spawn in the game, it gives a second chance of life if you hit an obstacle.)
+The power-downs include,
+- Speed-up (the game speeds up, reaching the maximum speed for a set amount of time making it harder for users)
+- Midget Dino (Shrinks the Dino, making the jumps harder.)
+As the user progresses through the game, the tempo gradually speeds up, and the difficulty increases as the background scrolls faster.
+The score counter
+- The game progress users will see the distances they have progressed through the game.
+- After each attempt, we will gather the users highest distance traveled.
+the end screen
+- when the dino hits the obstacle an end of screen appears.
