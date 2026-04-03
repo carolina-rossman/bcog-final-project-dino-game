@@ -1,8 +1,9 @@
 # Dino Dash 
 Dino Dash is an adventurous game where you play as Dino the dinosaur, a dinosaur from a corrupt test lab. 
+Your objective is to lead Dino through various obstacles to escape the corrupt test lab. 
 We are bringing two beloved games together, the dinosaur game (no-wifi Google game) and Jetpack Joyride, 
 to provide our take on the genre of side-scrolling games. Together, we have worked to create a sci-fi 
-experience to bring two beloved games together, creating an addictive experience. 
+experience like no other, creating an addictive experience for all. 
 
 ## Names and Parameters
        1.) Start Screen                      
@@ -11,55 +12,58 @@ experience to bring two beloved games together, creating an addictive experience
        -the quit button
        
        2.) Beginning Sequence  
-       - Dino runs on screen
-       - Dino reaches middle of the screen and background starts to scroll
+       - Dino appears on screen, press space bar to start the game 
+       - Dino reaches left side of the screen and background starts to scroll
        
       3.) Base Dino 
       - When spacebar is pressed, Dino Jumps
+      - Dino legs are animated, when Dino jumps the legs are still, when dino runs the legs move
 
       4.) Power Ups
+       At set distances, a random power-up will appear, by assigned weights
       -Jet Pack
       (When jetpack is picked up, switch to jetpack/flying Dino image)
-      (Dino doesn't run, Dino flies)
-      -Rocket Blaster
-      (when rocket blaster is picked up. switch to Dino with rocket blaster image)
-      (rocket blaster constantly shoots)
-      -At set distances, a random power-up will appear
-      
+      (Dino doesn't run, Dino flies, legs don't move)
+      - Immunity
+      (when an immunity power up is picked up. switch to Dino with shield image)
+      (immmunity continues for set amount of time then returns to normal)
+      (immunity power is very rare to spawn making the game harder)
+    
       5.) Power Downs
+       At set distances a random power down will appear
       - Speed up 
-      (for a set amount of time,the speed is faster)
+      (for a set amount of time, the speed is faster/the background is scrolling the fastest)
       -Midget Dino
-       (Dino becomes smaller, meaning jumps are also shorter)
-       -At set distances a random power down will appear
-       
+       (Dino becomes smaller, making the jumps harder to clear for user)
+      
        6.) Score Counters
-       - Distance Based Counter
-       -Also show how far from the end the player is
-       -Once a certain distance is reached, an end screen
+       - Distance Based Counter 
+       - Also show how far from the end the player is
+       - Once a certain distance is reached, an end screen
         will appear
         
        7.) End Screen 
-       -Dino blows up a wall
+       -Dino blows up a wall (to escape the corrupt test lab)
        -Dino runs off screen
        (Background stops Scrolling)
        -A congrats message appears
         
        8.) Game Over Screen
-       -When an obstacle is hit, this screen appears
-       -Has a message "You Died."
+       - When an obstacle is hit, a Game Over screen appears
+       - Has a message "You Died."
        - Two Buttons
        (Quit, Restart)
         
        9.) Obstacles
        - Various different images
-       - Will randomly appear but we will put a guideline in the code that presents the obstacles from being too close together.
+       - Will randomly appear but we will put a guideline in the code that prevents the obstacles from being too close together.
 
        10.) High score counter? 
-       - Still debating 
+       - Still debating adding 
+       - Your High score would appear, next to score counter
        
 ## Why Someone Would Use This
-Someone would use this program to pass the time and have fun. It is meant to be a game for dinosaur and sci-fi lovers.
+Someone would use this program to pass the time and have fun. This game is meant to be for dinosaur, sci-fi, and side scrolling game lovers.
 
 ## Project Details
 ### 1. A brief (3-5 sentences) description of your planned project
@@ -78,11 +82,6 @@ We will be attempting to recreate an advanced version of the no wifi dinosaur ga
       Assigned: It has already been decided that Alex will find/draw the graphics. We will divide the work based on classes. If we have an amount of classes that is not divisible by three, we will discuss what the fairest division of labor will be. If someone feels they have an undeserved amount of work, we will discuss and re-divide the work.
       b) How (and how often!) team members will communicate with each other about the project (such as weekly meetings, ongoing group chat, etc.)
       We already have an ongoing group chat. We will have in-person meetings on Mondays from 4:30 to 6, starting on week 9. If we feel that our Monday meeting is insufficient, we will also meet on Thursdays at a similar time.
-
-
-
-
-
 
 ## Testing
 You can run the test by running pytest in the root directory as a module.
