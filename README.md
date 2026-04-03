@@ -106,14 +106,16 @@ Then finally, after each attempt, we will gather the users highest distance trav
 To make the game more engaging we added various power-ups and power-downs.  
 These abilities automatically engage with no user input.  
 The power-ups include:  
-Jetpack (when jetpack is picked up the Dino begins to fly over obstacles, for a set distance to be determined.)  
-Immunity (when an Immunity power-up is picked up the Dino has a shield protecting itself from any obstacles, for a set distance to be determined.)  
-Revival (A rare power-up not guaranteed to spawn in the game, it gives a second chance of life if you hit an obstacle.)  
+- Jetpack (when jetpack is picked up the Dino begins to fly over obstacles, for a set distance to be determined.)  
+- Immunity (when an Immunity power-up is picked up the Dino has a shield protecting itself from any obstacles, for a set distance to be determined.)  
+- Revival (A rare power-up not guaranteed to spawn in the game, it gives a second chance of life if you hit an obstacle.)  
 
   
 The power-downs include,  
-Speed-up (the game speeds up, reaching the maximum speed for a set amount of time making it harder for users)  
-Midget Dino (Shrinks the Dino, making the jumps harder.)  
+- Speed-up (the game speeds up, reaching the maximum speed for a set amount of time making it harder for users)  
+- Midget Dino (Shrinks the Dino, making the jumps harder.)
+
+
 Finally if the user hits the desired distance, to be determined, to escape the corrupt test lab the dino would have escaped.  
 Presenting a Congratulations screen.  
 However if the dino runs into an obstacle before hand a game over screen appears giving the user two options:  
