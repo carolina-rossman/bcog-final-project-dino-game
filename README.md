@@ -88,7 +88,8 @@ We will be attempting to recreate an advanced version of the no wifi dinosaur ga
       We already have an ongoing group chat. We will have in-person meetings on Mondays from 4:30 to 6, starting on week 9. If we feel that our Monday meeting is insufficient, we will also meet on Thursdays at a similar time.
 
 ## Testing
-You can run the test by running pytest in the root directory as a module. Do so by running: 
+You can run the test by running pytest in the root directory as a module. Do so by running:  
+python -m pytest
 python -m pytest 
 When running the game you should expect the following: 
 The dino should stay in the far left of the screen while the background scrolls.  
