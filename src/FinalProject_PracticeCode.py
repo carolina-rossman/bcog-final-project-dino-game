@@ -83,8 +83,8 @@ def main():
                 pygame.quit()
                 sys.exit()
         
-        clock.tick(80)
-        pygame.display.update()
+        # clock.tick(80)
+        # pygame.display.update()
 
         # game.score.update(loops)
         # game.score.show()
