@@ -30,7 +30,7 @@ class BG:
         screen.blit(self.texture, (self.x, self.y))
 
     def set_texture(self):
-        path  =  os.path.join("assets", "images", "bg.png")
+        path  =  os.path.join("..","stimuli","assets", "images", "bg.png")
         self.texture = pygame.image.load(path)
         self.texture = pygame.transform.scale(self.texture, (self.width, self.height))
 
