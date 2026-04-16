@@ -5,7 +5,7 @@ class Display():
         self.root = tk.Tk()
         self.screen_size_x = self.screen_size[0]
         self.screen_size_y = self.screen_size [1]
-        self.background_image = tk.PhotoImage(file = "src/instructions_background.png")
+        self.background_image = tk.PhotoImage(file = "../src/instructions_background.png")
         self.load_instructions()
         self.init_window()
         self.create_interface_buttons()
