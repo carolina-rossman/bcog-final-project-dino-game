@@ -1,11 +1,12 @@
 import tkinter as tk
+import instructions_screen
 class Display(): 
     screen_size = (800, 600)
-    def __init__(self):
-        self.root = tk.Tk()
+    def __init__(self, root):
+        self.root = root
         self.screen_size_x = self.screen_size[0]
         self.screen_size_y = self.screen_size [1]
-        self.background_image = tk.PhotoImage(file = "background.png")
+        self.background_image = tk.PhotoImage(file = "../stimuli/background.png")
         self.init_window()
         self.create_interface_buttons()
 
@@ -58,16 +59,10 @@ class Display():
         self.canvas.create_window(400, 440, window= go_button)
         self.canvas.create_window(400, 500, window=quit_button)
     def go(self):
-        frame_delay = 50
-        self.canvas.destroy()
-        self.action_canvas = tk.Canvas(self.root, width= self.screen_size_x, height=self.screen_size_y, bg="black" )
-        self.action_canvas.pack()
-        self.background = self.action_canvas.create_image(
-            self.screen_size_x //2, 
-            self.screen_size_y //2,
-            image = self.background_image
-        )
-        self.root.after (frame_delay)
+        self.root.destroy()
+        new_root = tk.Tk()
+        instructions_screen.Display(new_root)
+        new_root.mainloop()
 
 def main(): 
     my_display = Display()
