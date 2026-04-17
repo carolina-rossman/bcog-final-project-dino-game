@@ -21,14 +21,13 @@ class BG:
         self.x = x
         self.y = 0
         self.set_texture()
-        self.show()
 
     def update(self, dx):
         self.x += dx
         if self.x <= -WIDTH:
             self.x = WIDTH
 
-    def show(self):
+    def show(self, screen):
         screen.blit(self.texture, (self.x, self.y))
 
     def set_texture(self):
@@ -64,5 +63,6 @@ def main():
         scoreboard.draw_score_counter(meters,screen) #From Me! Importing the scoreboard
         clock.tick(80) # From pygames
         pygame.display.update()
-    
-main()
+
+if __name__ == "__main__":  
+    main()

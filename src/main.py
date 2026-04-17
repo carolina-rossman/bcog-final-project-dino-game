@@ -1,4 +1,5 @@
 import start_screen
+import base_dino
 import tkinter as tk 
 
 def main(): 
