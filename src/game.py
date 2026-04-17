@@ -1,6 +1,7 @@
 import tkinter as tk 
 import random
-
+import scrolling_background
+import pygame
 
 class Display(): 
     def __init__(self, root): 
@@ -13,7 +14,7 @@ class Display():
 
         # load scrolling background from other .py
     def init_window(self): 
-        pass
+        scrolling_background()
     
     def load_dino(self): 
         self.dino = tk.PhotoImage(file = "../stimuli/dino.png")
@@ -32,6 +33,8 @@ class Display():
         selected_obstacles = random.choice ([self.bush, self.fence])
         # generate those images as background scrolls 
         # use pygame
+    def user_jumps(self): 
+
 
 
         
